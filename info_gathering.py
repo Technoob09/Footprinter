@@ -69,7 +69,7 @@ print(geo_result)
 if ip:
     print("[+] Getting info from Shodan for IP {}".format(ip))
     #shodan API
-    api = shodan.Shodan("yEfgH1rg8p76Wgmivf9rpQ2iwFP0FiQ3")
+    api = shodan.Shodan("Your_API_Key")
     try:
         results = api.search(ip)
         print("[+] Results found: {}".format(results['total']))
