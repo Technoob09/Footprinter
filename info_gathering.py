@@ -88,8 +88,7 @@ if (output):
         file.write(dns_result + '\n\n')
         file.write(geo_result + '\n\n')
 
-
-
+print("Done!!!")
 
 
 
